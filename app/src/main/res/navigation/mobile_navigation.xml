@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_twitter">
+
+
+    <fragment
+        android:id="@+id/navigation_twitter"
+        android:name="com.soheilheydari.logindesign.ui.twitter.TwitterFragment"
+        android:label="twitter"
+        tools:layout="@layout/fragment_twitter" />
+
+    <fragment
+        android:id="@+id/navigation_youtube"
+        android:name="com.soheilheydari.logindesign.ui.youtube.YoutubeFragment"
+        android:label="youtube"
+        tools:layout="@layout/fragment_youtube" />
+
+    <fragment
+        android:id="@+id/navigation_facebook"
+        android:name="com.soheilheydari.logindesign.ui.facebook.FacebookFragment"
+        android:label="facebook"
+        tools:layout="@layout/fragment_facebook" />
+
+    <fragment
+        android:id="@+id/navigation_instagram"
+        android:name="com.soheilheydari.logindesign.ui.instagram.InstagramFragment"
+        android:label="instagram"
+        tools:layout="@layout/fragment_instagram" />
+
+    <fragment
+        android:id="@+id/navigation_linkedin"
+        android:name="com.soheilheydari.logindesign.ui.linkedin.LinkedInFragment"
+        android:label="linkedin"
+        tools:layout="@layout/fragment_linked_in" />
+</navigation>
